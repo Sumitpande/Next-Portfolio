@@ -1,0 +1,121 @@
+{
+  "name": "Sumit Pande",
+  "title": "Full-Stack Developer crafting scalable, high-performance web applications. Experienced with React, Vue, TypeScript, Node, and modern UI engineering.",
+  "summary": "Results-driven Software Engineer with 3+ years of experience in full-stack web development using JavaScript, TypeScript, Python, and Java. Skilled in building scalable applications with React.js, Vue.js, Node.js, Django, REST APIs, and microservice-based architectures. Strong expertise in component-based UI development, state management, database design (SQL, MongoDB), and cloud-ready deployment with Docker. Proven ability to work in Agile teams, optimize performance, translate business requirements into technical solutions, and deliver high-quality, production-ready software. Passionate about modern frameworks, system design, and end-to-end product development.",
+  "experience": {
+    "title": "Experience",
+    "data": [
+      {
+        "title": "Software Engineering Specialist",
+        "company": "Dassault Systèmes",
+        "companyPage": "https://www.3ds.com/",
+        "duration": "2022 - Present",
+        "description": [
+          "Developed and maintained web applications using React, TypeScript, and Node.js, enhancing user experience and performance.",
+          "Collaborated with cross-functional teams to design and implement RESTful APIs, improving data exchange efficiency by 30%.",
+          "Led code reviews and mentored junior developers, fostering a culture of continuous learning and improvement within the team.",
+          "Optimized application performance through code refactoring and implementing best practices, resulting in a 25% reduction in load times."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "data": [
+      {
+        "category": "Languages",
+        "items": [
+          { "name": "JavaScript", "icon": ["fab", "js"], "color": "#F7DF1E" },
+          { "name": "Python", "icon": ["fab", "python"], "color": "#3776AB" },
+          { "name": "Java", "icon": ["fab", "java"], "color": "#f89820" },
+          { "name": "SQL", "icon": "database", "color": "#4479A1" }
+        ]
+      },
+      {
+        "category": "Frontend",
+        "items": [
+          { "name": "React.js", "icon": ["fab", "react"], "color": "#61DAFB" },
+          { "name": "Next.js", "icon": ["fas", "n"], "color": "#181717" },
+          { "name": "Vue.js", "icon": ["fab", "vuejs"], "color": "#4FC08D" },
+          { "name": "HTML5", "icon": ["fab", "html5"], "color": "#E34F26" },
+          { "name": "CSS3", "icon": ["fab", "css3"], "color": "#1572B6" }
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          { "name": "Node.js", "icon": ["fab", "node-js"], "color": "#339933" },
+          { "name": "Express.js", "icon": "server", "color": "#181717" },
+          { "name": "Django", "icon": ["fab", "python"], "color": "#092E20" },
+          { "name": "PostgreSQL", "icon": "database", "color": "#336791" },
+          { "name": "MongoDB", "icon": ["fab", "envira"], "color": "#47A248" },
+          {
+            "name": "Redis",
+            "icon": ["fas", "layer-group"],
+            "color": "#DC382D"
+          },
+          {
+            "name": "GraphQL",
+            "icon": ["fab", "connectdevelop"],
+            "color": "#E10098"
+          }
+        ]
+      },
+      {
+        "category": "DevOps & Tools",
+        "items": [
+          { "name": "Docker", "icon": ["fab", "docker"], "color": "#2496ED" },
+          {
+            "name": "Kubernetes",
+            "icon": ["fas", "cubes"],
+            "color": "#326CE5"
+          },
+
+          { "name": "AWS", "icon": ["fab", "aws"], "color": "#FF9900" },
+          { "name": "GitHub", "icon": ["fab", "github"], "color": "#181717" },
+          { "name": "Git", "icon": ["fab", "git-alt"], "color": "#F05032" }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "data": [
+      {
+        "name": "SocialX",
+        "description": [
+          "Developed SocialX, a full-stack real-time social media platform focused on seamless communication and high user engagement.",
+          "Built instant messaging with Socket.io and peer-to-peer video calling using WebRTC, enabling low-latency live interactions.",
+          "Implemented dynamic notifications, real-time post interactions, and a robust user profile system for enhanced social features.",
+          "Designed a scalable Node.js + MongoDB backend, ensuring fast performance and a responsive user experience."
+        ],
+        "link": "https://github.com/Sumitpande/SocialX",
+        "live": "",
+        "image": "/assets/images/shopping.svg",
+        "tags": ["React", "Node.js", "Express", "MongoDB"]
+      }
+    ]
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Sumitpande",
+      "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sumitpande",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/sumitpande",
+      "icon": "twitter"
+    }
+  ],
+  "contact": {
+    "email": "mailto:pande.sumit122@gmail.com",
+    "resume": "https://raw.github.com/Sumitpande/Resume/main/SumitResume.pdf"
+  },
+  "footer": "© 2025 All rights reserved."
+}
