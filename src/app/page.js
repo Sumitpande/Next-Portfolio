@@ -56,8 +56,11 @@ export default function Home() {
             </div>
           </div>
           <div className="grow mt-4 flex flex-col gap-3 col-span-2 md:col-span-1">
-            <div id="about" className="text-slate-500">
-              {data.summary}
+            <div id="about" className="text-black dark:text-neutral-400">
+              <div className="mt-4 mb-2 text-xl font-bold text-neutral-700 dark:text-neutral-100">
+                {data.summary.title}
+              </div>
+              {data.summary.text}
             </div>
             <div id="experience" className="">
               <div className="mt-4 mb-2 text-xl font-bold text-neutral-700 dark:text-neutral-100">

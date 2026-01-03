@@ -1,7 +1,10 @@
 {
   "name": "Sumit Pande",
   "title": "Full-Stack Developer crafting scalable, high-performance web applications. Experienced with React, Vue, TypeScript, Node, and modern UI engineering.",
-  "summary": "Results-driven Software Engineer with 3+ years of experience in full-stack web development using JavaScript, TypeScript, Python, and Java. Skilled in building scalable applications with React.js, Vue.js, Node.js, Django, REST APIs, and microservice-based architectures. Strong expertise in component-based UI development, state management, database design (SQL, MongoDB), and cloud-ready deployment with Docker. Proven ability to work in Agile teams, optimize performance, translate business requirements into technical solutions, and deliver high-quality, production-ready software. Passionate about modern frameworks, system design, and end-to-end product development.",
+  "summary": {
+    "text": "Results-driven Software Engineer with 3+ years of experience in full-stack web development using JavaScript, TypeScript, Python, and Java. Skilled in building scalable applications with React.js, Vue.js, Node.js, Django, REST APIs, and microservice-based architectures. Strong expertise in component-based UI development, state management, database design (SQL, MongoDB), and cloud-ready deployment with Docker. Proven ability to work in Agile teams, optimize performance, translate business requirements into technical solutions, and deliver high-quality, production-ready software. Passionate about modern frameworks, system design, and end-to-end product development.",
+    "title": "About Me"
+  },
   "experience": {
     "title": "Experience",
     "data": [
