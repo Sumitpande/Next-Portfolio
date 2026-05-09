@@ -1,9 +1,9 @@
 {
   "name": "Sumit Pande",
-  "title": "Full-Stack Developer crafting scalable, high-performance web applications. Experienced with React, Vue, TypeScript, Node, and modern UI engineering.",
+  "title": "Full Stack Engineer specializing in backend systems, distributed architecture, and scalable real-time applications using Node.js, TypeScript, PostgreSQL, Redis, Kafka, and React.",
   "summary": {
-    "text": "Results-driven Software Engineer with 3+ years of experience in full-stack web development using JavaScript, TypeScript, Python, and Java. Skilled in building scalable applications with React.js, Vue.js, Node.js, Django, REST APIs, and microservice-based architectures. Strong expertise in component-based UI development, state management, database design (SQL, MongoDB), and cloud-ready deployment with Docker. Proven ability to work in Agile teams, optimize performance, translate business requirements into technical solutions, and deliver high-quality, production-ready software. Passionate about modern frameworks, system design, and end-to-end product development.",
-    "title": "About Me"
+    "title": "About Me",
+    "text": "Full Stack Engineer with 3.8 years specializing in backend systems, distributed architecture, and internal platform engineering. Experienced in building scalable real-time applications, microservices, event-driven systems, and developer platforms using Node.js, TypeScript, React, PostgreSQL, Redis, and Kafka. Strong expertise in system design, API architecture, schema modeling, authentication systems, and production-ready infrastructure. Known for owning greenfield products end-to-end — from architecture and schema design to deployment and optimization."
   },
   "experience": {
     "title": "Experience",
@@ -12,12 +12,14 @@
         "title": "Software Engineering Specialist",
         "company": "Dassault Systèmes",
         "companyPage": "https://www.3ds.com/",
-        "duration": "2022 - Present",
+        "duration": "July 2022 - Present",
         "description": [
-          "Developed and maintained web applications using React, TypeScript, and Node.js, enhancing user experience and performance.",
-          "Collaborated with cross-functional teams to design and implement RESTful APIs, improving data exchange efficiency by 30%.",
-          "Led code reviews and mentored junior developers, fostering a culture of continuous learning and improvement within the team.",
-          "Optimized application performance through code refactoring and implementing best practices, resulting in a 25% reduction in load times."
+          "Led end-to-end development of enterprise-grade internal platforms used across multiple teams, focusing on scalability, maintainability, and performance.",
+          "Built backend systems and APIs using Node.js and TypeScript, improving operational workflows and reducing manual effort through automation.",
+          "Designed and developed real-time and data-intensive features using distributed system principles and event-driven architecture.",
+          "Implemented AI-assisted tooling and workflow automation solutions to improve user productivity and platform usability.",
+          "Created reusable shared libraries and developer utilities adopted across multiple projects, improving development consistency and reducing duplication.",
+          "Collaborated closely with cross-functional teams on architecture design, code reviews, deployment workflows, and production support."
         ]
       }
     ]
@@ -26,12 +28,24 @@
     "title": "Skills",
     "data": [
       {
-        "category": "Languages",
+        "category": "Backend & Architecture",
         "items": [
-          { "name": "JavaScript", "icon": ["fab", "js"], "color": "#F7DF1E" },
-          { "name": "Python", "icon": ["fab", "python"], "color": "#3776AB" },
+          { "name": "Node.js", "icon": ["fab", "node-js"], "color": "#339933" },
+          { "name": "TypeScript", "icon": "code", "color": "#3178C6" },
           { "name": "Java", "icon": ["fab", "java"], "color": "#f89820" },
-          { "name": "SQL", "icon": "database", "color": "#4479A1" }
+          { "name": "Python", "icon": ["fab", "python"], "color": "#3776AB" },
+          { "name": "REST APIs", "icon": "server", "color": "#6C63FF" },
+          { "name": "Microservices", "icon": "cubes", "color": "#4F46E5" },
+          {
+            "name": "System Design",
+            "icon": "project-diagram",
+            "color": "#0F172A"
+          },
+          {
+            "name": "Distributed Systems",
+            "icon": "network-wired",
+            "color": "#334155"
+          }
         ]
       },
       {
@@ -40,16 +54,15 @@
           { "name": "React.js", "icon": ["fab", "react"], "color": "#61DAFB" },
           { "name": "Next.js", "icon": ["fas", "n"], "color": "#181717" },
           { "name": "Vue.js", "icon": ["fab", "vuejs"], "color": "#4FC08D" },
+          { "name": "JavaScript", "icon": ["fab", "js"], "color": "#F7DF1E" },
           { "name": "HTML5", "icon": ["fab", "html5"], "color": "#E34F26" },
-          { "name": "CSS3", "icon": ["fab", "css3"], "color": "#1572B6" }
+          { "name": "CSS3", "icon": ["fab", "css3"], "color": "#1572B6" },
+          { "name": "Zustand", "icon": "layer-group", "color": "#7C3AED" }
         ]
       },
       {
-        "category": "Backend",
+        "category": "Databases & Messaging",
         "items": [
-          { "name": "Node.js", "icon": ["fab", "node-js"], "color": "#339933" },
-          { "name": "Express.js", "icon": "server", "color": "#181717" },
-          { "name": "Django", "icon": ["fab", "python"], "color": "#092E20" },
           { "name": "PostgreSQL", "icon": "database", "color": "#336791" },
           { "name": "MongoDB", "icon": ["fab", "envira"], "color": "#47A248" },
           {
@@ -57,10 +70,18 @@
             "icon": ["fas", "layer-group"],
             "color": "#DC382D"
           },
+          { "name": "Kafka", "icon": "stream", "color": "#231F20" },
+          { "name": "Prisma", "icon": "database", "color": "#0C344B" },
           {
             "name": "GraphQL",
             "icon": ["fab", "connectdevelop"],
             "color": "#E10098"
+          },
+          { "name": "Database Design", "icon": "table", "color": "#2563EB" },
+          {
+            "name": "Event-Driven Architecture",
+            "icon": "bolt",
+            "color": "#F59E0B"
           }
         ]
       },
@@ -68,15 +89,11 @@
         "category": "DevOps & Tools",
         "items": [
           { "name": "Docker", "icon": ["fab", "docker"], "color": "#2496ED" },
-          {
-            "name": "Kubernetes",
-            "icon": ["fas", "cubes"],
-            "color": "#326CE5"
-          },
-
           { "name": "AWS", "icon": ["fab", "aws"], "color": "#FF9900" },
+          { "name": "Git", "icon": ["fab", "git-alt"], "color": "#F05032" },
           { "name": "GitHub", "icon": ["fab", "github"], "color": "#181717" },
-          { "name": "Git", "icon": ["fab", "git-alt"], "color": "#F05032" }
+          { "name": "CI/CD", "icon": "infinity", "color": "#4B5563" },
+          { "name": "NPM Publishing", "icon": "cube", "color": "#CB3837" }
         ]
       }
     ]
@@ -85,17 +102,27 @@
     "title": "Projects",
     "data": [
       {
-        "name": "SocialX",
+        "name": "Nexus",
         "description": [
-          "Developed SocialX, a full-stack real-time social media platform focused on seamless communication and high user engagement.",
-          "Built instant messaging with Socket.io and peer-to-peer video calling using WebRTC, enabling low-latency live interactions.",
-          "Implemented dynamic notifications, real-time post interactions, and a robust user profile system for enhanced social features.",
-          "Designed a scalable Node.js + MongoDB backend, ensuring fast performance and a responsive user experience."
+          "Designed a horizontally scalable real-time messaging system supporting direct and group conversations using Redis Pub/Sub adapter for distributed WebSocket event fan-out.",
+          "Built a Notification Microservice consuming Kafka events and routing notifications to email and in-app channels with retry and dead-letter handling.",
+          "Implemented secure JWT authentication with HTTP-only refresh tokens, token rotation, reuse detection, and Redis-backed session management.",
+          "Modeled a normalized PostgreSQL schema with composite indexing and cursor-based pagination optimized for high-throughput message retrieval.",
+          "Architected the platform using Node.js, TypeScript, PostgreSQL, Redis, Kafka, Docker, and Socket.io following scalable microservice patterns."
         ],
-        "link": "https://github.com/Sumitpande/SocialX",
+        "link": "https://github.com/Sumitpande/Nexus",
         "live": "",
-        "image": "/assets/images/shopping.svg",
-        "tags": ["React", "Node.js", "Express", "MongoDB"]
+        "image": "/assets/images/nexus.svg",
+        "tags": [
+          "React",
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Redis",
+          "Kafka",
+          "Socket.io",
+          "Docker"
+        ]
       }
     ]
   },
@@ -118,7 +145,7 @@
   ],
   "contact": {
     "email": "mailto:pande.sumit122@gmail.com",
-    "resume": "https://raw.github.com/Sumitpande/Resume/main/SumitResume.pdf"
+    "resume": "https://raw.githubusercontent.com/Sumitpande/Resume/main/SumitResume.pdf"
   },
-  "footer": "© 2025 All rights reserved."
+  "footer": "© 2026 Sumit Pande. All rights reserved."
 }
