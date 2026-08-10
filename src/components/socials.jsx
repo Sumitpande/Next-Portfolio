@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { DynamicIcon } from "lucide-react/dynamic";
 import data from "@/data/index.json";
+
 export default function Socials() {
   return (
     <div className="flex items-center gap-4">
@@ -13,12 +14,20 @@ export default function Socials() {
           target="_blank"
           rel="noreferrer"
         >
-          <DynamicIcon
-            name={item.icon}
-            className="text-gray-500 hover:text-gray-800 dark:text-neutral-300 dark:hover:text-neutral-100"
-            width={22}
-            height={22}
-          />
+          {item?.local ? (
+            <img
+              src={item.local}
+              className="w-[22px] h-[22px] "
+              alt={item.name}
+            />
+          ) : (
+            <DynamicIcon
+              name={item.icon}
+              className="text-gray-500 hover:text-gray-800 dark:text-neutral-300 dark:hover:text-neutral-100"
+              width={22}
+              height={22}
+            />
+          )}
         </Link>
       ))}
     </div>

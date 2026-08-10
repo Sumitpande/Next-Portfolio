@@ -3,7 +3,7 @@
   "title": "Full Stack Engineer specializing in backend systems, distributed architecture, and scalable real-time applications using Node.js, TypeScript, PostgreSQL, Redis, Kafka, and React.",
   "summary": {
     "title": "About Me",
-    "text": "Full Stack Engineer with 3.8 years specializing in backend systems, distributed architecture, and internal platform engineering. Experienced in building scalable real-time applications, microservices, event-driven systems, and developer platforms using Node.js, TypeScript, React, PostgreSQL, Redis, and Kafka. Strong expertise in system design, API architecture, schema modeling, authentication systems, and production-ready infrastructure. Known for owning greenfield products end-to-end — from architecture and schema design to deployment and optimization."
+    "text": "Full Stack Engineer with 4+ years specializing in backend systems, distributed architecture, and internal platform engineering. Experienced in building scalable real-time applications, microservices, event-driven systems, and developer platforms using Node.js, TypeScript, React, PostgreSQL, Redis, and Kafka. Strong expertise in system design, API architecture, schema modeling, authentication systems, and production-ready infrastructure. Known for owning greenfield products end-to-end — from architecture and schema design to deployment and optimization."
   },
   "experience": {
     "title": "Experience",
@@ -141,6 +141,12 @@
       "platform": "Twitter",
       "url": "https://x.com/sumitpande_/",
       "icon": "twitter"
+    },
+    {
+      "platform": "Leetcode",
+      "url": "https://leetcode.com/u/Sumitpande/",
+      "icon": "leetcode",
+      "local": "/assets/images/leetcode.svg"
     }
   ],
   "contact": {
